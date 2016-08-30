@@ -1,0 +1,10 @@
+Using System;
+ //TryParse 不能用于String;
+ *省略一大堆
+ int/double/decimal/long/char/bool.TryParse(字符串名字, out 输出的变量名);
+ //示例
+ if (int/double/decimal/long/char/bool.TryParse(xxx, out xx)){
+ //如果能转换字符串为int/double/decimal/long/char/bool进行的事件
+ }
+ else{
+ //如果不能转换进行的事件}
