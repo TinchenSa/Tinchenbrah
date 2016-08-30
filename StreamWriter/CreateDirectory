@@ -1,0 +1,5 @@
+Using System.IO;
+*省略一大堆
+Directory.CreateDirectory(目录，不写前面的地址表示本文件夹);
+                StreamWriter SW = new StreamWriter(目录，不写前面的地址表示本文件夹, false); //false为覆盖，true为增加
+                
