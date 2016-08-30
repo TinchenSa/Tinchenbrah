@@ -1,0 +1,5 @@
+Using System.IO;
+* 省略一大堆
+StreamWriter SW = new StreamWriter(//目录名字,不写前面的位置表示本文件夹);
+SW.Write(要写入文件的变量);
+SW.Close();
