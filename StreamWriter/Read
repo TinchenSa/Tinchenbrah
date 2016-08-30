@@ -1,0 +1,5 @@
+Using System.IO
+*省略一大堆
+StreamReader SR = new StreamReader(目录名字，不写前面的地址表示本文件夹);
+变量名 = SR.ReadToEnd(); //从头读到尾，读取某一行的东西暂时未实现
+SR.Close();
