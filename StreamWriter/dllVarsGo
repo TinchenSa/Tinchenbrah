@@ -1,0 +1,20 @@
+using System.IO;
+
+如果需要从DLL导入的话
+//dll部分
+/* balabalabala各种代码块 */
+Directory.CreateDirectory("文件夹名称");
+            StreamWriter Title = new StreamWriter("文件夹名称/文件名称");
+            Title.Write(写入的变量);
+            Title.Close();
+//主体部分
+Dll的namespace.类名称 名字 = new 类名称();
+            dll方法名字.dll方法();
+            string 需要导入的变量的名称;
+            StreamReader 名称 = new StreamReader("文件夹名称/文件名称");
+            变量名 = 名称.ReadToEnd();
+
+
+
+
+如果需要从主体导入则反着来。
