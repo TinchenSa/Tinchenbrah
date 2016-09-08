@@ -1,0 +1,14 @@
+enter this in head file
+(balabalabala)
+
+int/double/xxx xxx (int/double/xxx xx)//前面的表示输出int或double或xxx，后面括号里的表示输入int或double或xxx;
+{
+//代码块
+}
+
+enter this in CPP file
+(balabalabala)
+
+#include "head file name"
+using namespace headFileNamespace ;
+xxx(int/double/xxx xx); //调用函数，括号里表示输入进函数的值;
